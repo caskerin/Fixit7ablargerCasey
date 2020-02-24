@@ -1,0 +1,21 @@
+var quoteString = "Failure is simply the opportunity to begin again this time more intelligently."
+
+let upperCaseString =quoteString.toUpperCase()
+console.log(`Upper case string is: ${upperCaseString}`)
+
+var authorString = "- Henry Ford"
+
+var completeString = quoteString.concat(authorString)
+console.log(`The string in the quoteString is: ${completeString}`)
+
+secondQuote = "Talent is cheaper than table salt. What seperates the talented individual from the successful one is a lot of hard work. -Stephen King"
+
+lowerCaseString = secondQuote.toLowerCase()
+console.log(`Lower case string is: ${lowerCaseString}`)
+
+let charThree = secondQuote.charAt(3)
+console.log(`The character at location 3 is: ${charThree}`)
+
+console.log(secondQuote)
+var findString = secondQuote.replace("What seperates the talented individual from the successful one is a lot of hard work. -Stephan King","")
+console.log(findString)
